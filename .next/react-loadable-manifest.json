@@ -7,34 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./styles.css": [
+  "../../Assets/Css/bulma.css": [
     {
-      "id": "./pages/styles.css",
-      "name": "./pages/styles.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./pages/CustomeContentLoader/styles.css",
-      "name": "./pages/CustomeContentLoader/styles.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./pages/Menu/styles.css",
-      "name": "./pages/Menu/styles.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./pages/Content/styles.css",
-      "name": "./pages/Content/styles.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": "./pages/Footer/styles.css",
-      "name": "./pages/Footer/styles.css",
+      "id": "./pages/Assets/Css/bulma.css",
+      "name": "./pages/Assets/Css/bulma.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -42,30 +18,6 @@
   "undefined": [
     {
       "id": 2,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 5,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 3,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"

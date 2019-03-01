@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './home';
+import Pages from './Pages';
 import "isomorphic-fetch";
-import { Fetch } from  './commonAction';
+import { Fetch } from  './Redux/Action';
 
 function Page({ dataArticles }) {
   return <div>
-    <Home dataArticles={dataArticles}/>
+    <Pages dataArticles={dataArticles}/>
   </div>
 }
 Page.getInitialProps = async ({ req }) => {
