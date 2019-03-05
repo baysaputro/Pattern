@@ -1,7 +1,9 @@
-import React from 'react';
-import Flex from '../../Elements/Flex';
-import Label from '../../Elements/Label';
+import React from 'react'
+import Status from '../../Components/Connection'
+import Flex from '../../Elements/Flex'
+import Label from '../../Elements/Label'
 import '../../Assets/Css/bulma.css'
+import { noConnection } from '../../Redux/Action';
 
 class Component extends React.Component{
   constructor(props){
@@ -9,6 +11,9 @@ class Component extends React.Component{
     this.scrollArticle = new React.createRef();
     this.handleScrollBoxArticle=this.handleScrollBoxArticle.bind(this);
     this.page = this.props.page;
+    this.state = {
+      offline: false
+    }
   }
 
   handleScrollBoxArticle(){
@@ -23,9 +28,15 @@ class Component extends React.Component{
   }
 
   componentDidMount() {
-    const { loadDataArticle, page, totalArticle }  = this.props;
-    loadDataArticle(page,totalArticle);
+    const { loadDataArticle, page, totalArticle, errorStatus }  = this.props;
     window.addEventListener('scroll', this.handleScrollBoxArticle);
+    if(navigator.onLine){
+      console.log('online')
+      loadDataArticle(page,totalArticle);
+    } else {
+      console.log('offline')
+      this.setState({offline:true})
+    }
   }
 
   componentWillUnmount() {
@@ -33,12 +44,15 @@ class Component extends React.Component{
   }
   
   render(){
-    const { dataArticles, Loader, loading, totalArticle, pageSize } = this.props;
-    if (pageSize == totalArticle && loading){
-      <Loader />
-    }
+    let offlineMsg = this.state.offline ? (<Status />) : (<span></span>)
+    const { dataArticles, Loader, loading, totalArticle, pageSize, status } = this.props;
+    console.log('status')
+    console.log(dataArticles)
+    console.log(this.props.status)
+    
     return (
       <div className="container" ref={ref=>this.scrollArticle=ref} onScroll={this.handleScrollBoxArticle}>
+      {offlineMsg}
       {dataArticles.map((article,i)=>{
         return(
           <article className="media" key={i}>

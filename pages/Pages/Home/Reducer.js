@@ -5,6 +5,7 @@ export default function Reducer(state = {
   pageSize:5,
   totalArticle:5,
   dataArticles:[],
+  status:false,
   loading:false
 },action) {
   switch (action.type) {

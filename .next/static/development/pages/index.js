@@ -8822,6 +8822,123 @@ var CONST = {
 
 /***/ }),
 
+/***/ "./pages/Components/Connection/index.js":
+/*!**********************************************!*\
+  !*** ./pages/Components/Connection/index.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Assets/Css/bulma.css */ "./pages/Assets/Css/bulma.css");
+/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "/home/bay/Work/Pattern/pages/Components/Connection/index.js";
+
+
+
+var Index =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Index, _React$Component);
+
+  function Index() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Index);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
+    key: "reLoad",
+    value: function reLoad() {
+      window.location.reload();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "tile",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "tile is-parent",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("article", {
+        className: "tile is-child notification is-primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "INTERNET NO CONNECTION"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "subtitle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, "Internet Tidak Ada Koneksi"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "button is-primary is-inverted is-outlined",
+        onClick: function onClick() {
+          return _this.reLoad();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Refresh")))));
+    }
+  }]);
+
+  return Index;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
 /***/ "./pages/Components/Loader/Component.js":
 /*!**********************************************!*\
   !*** ./pages/Components/Loader/Component.js ***!
@@ -9614,10 +9731,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _Elements_Flex__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Elements/Flex */ "./pages/Elements/Flex/index.js");
-/* harmony import */ var _Elements_Label__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Elements/Label */ "./pages/Elements/Label/index.js");
-/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Assets/Css/bulma.css */ "./pages/Assets/Css/bulma.css");
-/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Components_Connection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/Connection */ "./pages/Components/Connection/index.js");
+/* harmony import */ var _Elements_Flex__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Elements/Flex */ "./pages/Elements/Flex/index.js");
+/* harmony import */ var _Elements_Label__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Elements/Label */ "./pages/Elements/Label/index.js");
+/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../Assets/Css/bulma.css */ "./pages/Assets/Css/bulma.css");
+/* harmony import */ var _Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Assets_Css_bulma_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _Redux_Action__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../Redux/Action */ "./pages/Redux/Action/index.js");
 
 
 
@@ -9625,6 +9744,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/home/bay/Work/Pattern/pages/Pages/Home/Component.js";
+
+
 
 
 
@@ -9644,6 +9765,9 @@ function (_React$Component) {
     _this.scrollArticle = new react__WEBPACK_IMPORTED_MODULE_6___default.a.createRef();
     _this.handleScrollBoxArticle = _this.handleScrollBoxArticle.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this));
     _this.page = _this.props.page;
+    _this.state = {
+      offline: false
+    };
     return _this;
   }
 
@@ -9670,9 +9794,19 @@ function (_React$Component) {
       var _this$props2 = this.props,
           loadDataArticle = _this$props2.loadDataArticle,
           page = _this$props2.page,
-          totalArticle = _this$props2.totalArticle;
-      loadDataArticle(page, totalArticle);
+          totalArticle = _this$props2.totalArticle,
+          errorStatus = _this$props2.errorStatus;
       window.addEventListener('scroll', this.handleScrollBoxArticle);
+
+      if (navigator.onLine) {
+        console.log('online');
+        loadDataArticle(page, totalArticle);
+      } else {
+        console.log('offline');
+        this.setState({
+          offline: true
+        });
+      }
     }
   }, {
     key: "componentWillUnmount",
@@ -9684,23 +9818,29 @@ function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
+      var offlineMsg = this.state.offline ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_Components_Connection__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      });
       var _this$props3 = this.props,
           dataArticles = _this$props3.dataArticles,
           Loader = _this$props3.Loader,
           loading = _this$props3.loading,
           totalArticle = _this$props3.totalArticle,
-          pageSize = _this$props3.pageSize;
-
-      if (pageSize == totalArticle && loading) {
-        react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Loader, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 38
-          },
-          __self: this
-        });
-      }
-
+          pageSize = _this$props3.pageSize,
+          status = _this$props3.status;
+      console.log('status');
+      console.log(dataArticles);
+      console.log(this.props.status);
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "container",
         ref: function ref(_ref) {
@@ -9709,173 +9849,173 @@ function (_React$Component) {
         onScroll: this.handleScrollBoxArticle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 54
         },
         __self: this
-      }, dataArticles.map(function (article, i) {
+      }, offlineMsg, dataArticles.map(function (article, i) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("article", {
           className: "media",
           key: i,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 58
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("figure", {
           className: "media-left",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 45
+            lineNumber: 59
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
           className: "image is-64x64",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 46
+            lineNumber: 60
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
           src: article.urlToImage,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 47
+            lineNumber: 61
           },
           __self: this
         }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "media-content",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 64
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "content",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 51
+            lineNumber: 65
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 52
+            lineNumber: 66
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("strong", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 67
           },
           __self: this
         }, article.title), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 68
           },
           __self: this
         }), article.description, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 68
           },
           __self: this
         }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", {
           className: "level is-mobile",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 57
+            lineNumber: 71
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "level-left",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 58
+            lineNumber: 72
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
           className: "level-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 59
+            lineNumber: 73
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
           className: "icon is-small",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 74
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
           className: "fas fa-reply",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 74
           },
           __self: this
         }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
           className: "level-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62
+            lineNumber: 76
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
           className: "icon is-small",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 77
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
           className: "fas fa-retweet",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 77
           },
           __self: this
         }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
           className: "level-item",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 79
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
           className: "icon is-small",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66
+            lineNumber: 80
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
           className: "fas fa-heart",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66
+            lineNumber: 80
           },
           __self: this
         })))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
           className: "media-right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 85
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
           className: "delete",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 72
+            lineNumber: 86
           },
           __self: this
         })));
       }), loading ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Loader, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 91
         },
         __self: this
       }) : []);
@@ -9909,6 +10049,7 @@ function Reducer() {
     pageSize: 5,
     totalArticle: 5,
     dataArticles: [],
+    status: false,
     loading: false
   };
   var action = arguments.length > 1 ? arguments[1] : undefined;
@@ -9971,12 +10112,14 @@ var mapStateToProps = function mapStateToProps(state) {
       pageSize = _state$Content.pageSize,
       totalArticle = _state$Content.totalArticle,
       dataArticles = _state$Content.dataArticles,
+      status = _state$Content.status,
       loading = _state$Content.loading;
   return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, state, {
     page: page,
     pageSize: pageSize,
     totalArticle: totalArticle,
     dataArticles: dataArticles,
+    status: status,
     loading: loading
   });
 };
@@ -10158,10 +10301,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/Services/API/news.js":
+/*!************************************!*\
+  !*** ./pages/Services/API/news.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10172,64 +10315,99 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Pages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Pages */ "./pages/Pages/index.js");
+/* harmony import */ var _Pages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Pages */ "./pages/Pages/index.js");
 /* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-fetch */ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
 /* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Redux_Action__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Redux/Action */ "./pages/Redux/Action/index.js");
 
 
-var _jsxFileName = "/home/bay/Work/Pattern/pages/index.js";
-
+var _jsxFileName = "/home/bay/Work/Pattern/pages/Services/API/news.js";
 
 
 
 
-function Page(_ref) {
-  var dataArticles = _ref.dataArticles;
+function News(_ref) {
+  var dataArticles = _ref.dataArticles,
+      status = _ref.status;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Pages__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, " ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Pages__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    status: status,
     dataArticles: dataArticles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 6
     },
     __self: this
-  }));
-}
+  }), " ");
+} // Page.getInitialProps = async ({ req }) => {
+//   let inet = CheckInternetConnection()
+//   console.log(inet)
+//   let apiKey = '3e6d0f91b9f14b00a5e63f63eb35ee8b',
+//   page       = 1, 
+//   pageSize   = 5;
+//   const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}&page=${page}&pageSize=${pageSize}`);
+//   const data = await res.json()
+//   console.log(data)
+//   return { dataArticles: data.articles }
+// }
 
-Page.getInitialProps =
+
+News.getInitialProps =
 /*#__PURE__*/
 function () {
   var _ref3 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
   /*#__PURE__*/
   _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref2) {
-    var req, apiKey, page, pageSize, res, data;
+    var req, apiKey, page, status, pageSize, res, data;
     return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
             req = _ref2.req;
-            apiKey = '3e6d0f91b9f14b00a5e63f63eb35ee8b', page = 1, pageSize = 5;
+            apiKey = '3e6d0f91b9f14b00a5e63f63eb35ee8b', page = 1, status = false, pageSize = 5;
             _context.next = 4;
             return fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=".concat(apiKey, "&page=").concat(page, "&pageSize=").concat(pageSize));
 
           case 4:
             res = _context.sent;
-            _context.next = 7;
+            console.log(status).then(function (response) {
+              if (!response.ok) {
+                throw Error(response.statusText);
+              }
+
+              return response;
+            }).then(function (response) {
+              status = false;
+              return response;
+            }).catch(function (error) {
+              status = true;
+            });
+
+            if (!status) {
+              _context.next = 11;
+              break;
+            }
+
+            console.log(status);
+            return _context.abrupt("return", {
+              dataArticles: []
+            });
+
+          case 11:
+            _context.next = 13;
             return res.json();
 
-          case 7:
+          case 13:
             data = _context.sent;
             return _context.abrupt("return", {
               dataArticles: data.articles
             });
 
-          case 9:
+          case 15:
           case "end":
             return _context.stop();
         }
@@ -10240,7 +10418,91 @@ function () {
   return function (_x) {
     return _ref3.apply(this, arguments);
   };
-}();
+}(); // Page.getInitialProps = async ({ req }) => {
+//   console.log(!navigator);
+//   if (!navigator){
+//     return { dataArticles:[] }
+//   }else{
+//     if(navigator.onLine){
+//       console.log('online');
+//       let apiKey = '3e6d0f91b9f14b00a5e63f63eb35ee8b',
+//       page       = 1, 
+//       pageSize   = 5;
+//       const res = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}&page=${page}&pageSize=${pageSize}`);
+//       const data = await res.json()
+//       return { dataArticles: data.articles }
+//     } else {
+//       console.log('offline')
+//     }
+//   }
+// }
+
+
+/* harmony default export */ __webpack_exports__["default"] = (News);
+
+/***/ }),
+
+/***/ "./pages/Utitlities/Helper/DetectConnection.js":
+/*!*****************************************************!*\
+  !*** ./pages/Utitlities/Helper/DetectConnection.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// function DetectConnection(){
+//   return "Haiiiii"
+//   if(navigator.onLine){
+//     return { isOnline: true }
+//   } else {
+//     return { isOnline: false }
+//   }
+// }
+var CheckInternetConnection = function CheckInternetConnection() {
+  console.log("HALLO FROM CheckInternetConnection");
+  console.log(window.navigator);
+  return "INTERNET ADA";
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (CheckInternetConnection);
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Services_API_news__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services/API/news */ "./pages/Services/API/news.js");
+/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-fetch */ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
+/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Redux_Action__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Redux/Action */ "./pages/Redux/Action/index.js");
+/* harmony import */ var _Utitlities_Helper_DetectConnection__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Utitlities/Helper/DetectConnection */ "./pages/Utitlities/Helper/DetectConnection.js");
+var _jsxFileName = "/home/bay/Work/Pattern/pages/index.js";
+
+
+
+
+
+
+function Page(_ref) {
+  var dataArticles = _ref.dataArticles;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Services_API_news__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    dataArticles: dataArticles,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  });
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (Page);
 

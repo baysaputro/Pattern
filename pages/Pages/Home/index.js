@@ -9,6 +9,7 @@ const mapStateToProps=(state)=>{
     pageSize,
     totalArticle,
     dataArticles,
+    status,
     loading,
   } = state.Content;
   return {
@@ -17,6 +18,7 @@ const mapStateToProps=(state)=>{
     pageSize,
     totalArticle,
     dataArticles,
+    status,
     loading
   };
 }
